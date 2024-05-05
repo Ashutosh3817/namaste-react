@@ -7,31 +7,15 @@
     <link rel="stylesheet" href="./index.css">
     <title>Namaste React</title>
 </head>
-<!-- first the bowser read the html code then it shows ashutosh is here then it import react and react dom and then it
-executes js in the script tag and parent in scipt which basically the root div and then we render the root element
-with the object which converts into tag and replace the code which is already defined in root element   -->
 <body>
-    <!-- react is library because it can work for only particular html element means react can use in the partially not fully
-    because in the case of framework u have to follow all the framework rules in the framework we have to create 
-the whole app using that framework but in react we can use react in the already existing projects-->
-<!-- ORDER OF ELEMENTS MATTER IN REACT -->
+  
     <h1>Ashutosh</h1>
     <div id="root">
-        <!-- react is only inside the root element and if we write outside the root element then it will not get replaced by the render method -->
-        <!-- all of things get replaced by the render method not appended-->
+    
        <h1>Ashutosh is here</h1>
     </div>
     <h1>Sinha</h1>
-    <!-- order ofscript tag  mattesr first import react then write the react code  -->
-    <!--bRING REACT INSIDE OUR CODE   -->
-        <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
-        <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
-        <!-- const heading  = document.createElement("h1");
-        heading.innerHTML="HELLO WORLD BY JS";
-        const root = document.getElementById("root");
-        root.appendChild(heading); -->
-
-       <script src="./App.js "></script>
+       <script type="module" src="./App.js"></script>
     
 </body>
 </html>
